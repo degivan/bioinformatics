@@ -1,0 +1,99 @@
+package main;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+/**
+ * Created by Degtjarenko Ivan on 01.04.2016.
+ */
+public class Spectre {
+    public static final Charset ENCODING = StandardCharsets.UTF_8;
+    public static int filesAmount = 0;
+
+    private final int fileNumber;
+    private final double precursorMZ;
+    private final double precursorMass;
+    private final int precursorCharge;
+    private ArrayList<Peak> peakList;
+
+    private Spectre(int fileNumber, double precursorMZ, double precursorMass, int precursorCharge, ArrayList<Peak> peakList) {
+        this.fileNumber = fileNumber;
+        this.precursorMZ = precursorMZ;
+        this.precursorMass = precursorMass;
+        this.precursorCharge = precursorCharge;
+        this.peakList = peakList;
+    }
+
+    public static Spectre getSpectreFromFile(Path pathToFile) throws IOException {
+        try (BufferedReader reader = Files.newBufferedReader(pathToFile, ENCODING)) {
+            String line;
+            for(int i = 0; i < 3; i++) {
+                reader.readLine();
+            }
+            double precursorMZ = Double.parseDouble(getPrecursorParam(reader));
+            int precursorCharge = Integer.parseInt(getPrecursorParam(reader));
+            double precursorMass = Double.parseDouble(getPrecursorParam(reader));
+            ArrayList<Peak> peakList = new ArrayList<>();
+            while((line = reader.readLine()) != null) {
+                Peak peak = Peak.getPeakFromString(line);
+                if (peak != null) {
+                    peakList.add(peak);
+                }
+            }
+            filesAmount++;
+            return new Spectre(filesAmount - 1, precursorMZ, precursorMass, precursorCharge, peakList);
+        }
+    }
+
+    private static String getPrecursorParam(BufferedReader reader) throws IOException {
+        String[] strings = reader.readLine().split("=");
+        return strings[1];
+    }
+
+    public static void setFilesAmount(int filesAmount) {
+        Spectre.filesAmount = filesAmount;
+    }
+
+    public double getPrecursorMZ() {
+        return precursorMZ;
+    }
+
+    public double getPrecursorMass() {
+        return precursorMass;
+    }
+
+    public int getPrecursorCharge() {
+        return precursorCharge;
+    }
+
+    public List<Peak> getPeakList() {
+        return peakList;
+    }
+
+    public List<Set<Peak>> confirmSequence(List<Double> cutList) {
+        List<Set<Peak>> confirmed = new ArrayList<>();
+        for(int i = 0; i < cutList.size(); i++) {
+            confirmed.add(new HashSet<>());
+        }
+        for(Peak p: peakList) {
+            for(int i = 0; i < cutList.size(); i++) {
+                if(Peak.isConfirmingCut(p.getMass(), cutList.get(i))) {
+                    confirmed.get(i).add(p);
+                }
+            }
+        }
+        return confirmed;
+    }
+
+    public int getFileNumber() {
+        return fileNumber;
+    }
+}
