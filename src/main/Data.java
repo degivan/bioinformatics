@@ -19,15 +19,16 @@ public class Data {
 
     private Data() {}
 
-    public static void addSpectreFromFile(Path pathToFile) throws IOException {
-        addSpectre(Spectre.getSpectreFromFile(pathToFile));
+    public static Spectre addSpectreFromFile(Path pathToFile) throws IOException {
+        return addSpectre(Spectre.getSpectreFromFile(pathToFile));
     }
 
-    public static void addSpectre(Spectre spectre) {
+    public static Spectre addSpectre(Spectre spectre) {
         if (spectreList == null) {
             spectreList = new ArrayList<>();
         }
         spectreList.add(spectre);
+        return spectre;
     }
 
     public static List<Spectre> getSpectreList() {

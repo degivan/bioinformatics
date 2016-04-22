@@ -1,18 +1,17 @@
 package main;
 
 import javafx.application.Platform;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.ContextMenu;
-import javafx.scene.control.Menu;
-import javafx.scene.control.MenuItem;
+import javafx.scene.control.*;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Font;
+import javafx.scene.text.Text;
 
 import javax.swing.*;
 import java.io.File;
@@ -26,7 +25,8 @@ import java.util.stream.Collectors;
 
 public class Controller {
     private final static String OPEN_FILE = "Открыть файл";
-    private final static String CUT_CONFIRMED_STYLE = "-fx-background-color: green;";
+    private final static String CUT_CONFIRMED_STYLE = "-fx-border-color: transparent green transparent transparent; " +
+            "-fx-border-width: 3px 7px 3px 3px;";
     private final static double BUTTON_SIZE = 55.0;
     private final static Font BUTTON_FONT = new Font(20);
 
@@ -37,6 +37,9 @@ public class Controller {
     @FXML
     private AnchorPane anchorPane;
 
+    @FXML
+    private ListView fileList;
+
     public void onCloseMenuItemClick(Event event) {
         Platform.exit();
     }
@@ -44,11 +47,19 @@ public class Controller {
     public void onAddSpectreMenuItemClick(ActionEvent actionEvent) {
         makeActionWithFile(file -> {
             try {
-                Data.addSpectreFromFile(file.toPath());
+                Spectre spectre = Data.addSpectreFromFile(file.toPath());
+                addFileToList(spectre.getFileNumber(), spectre.getFileName());
             } catch (IOException e) {
                 e.printStackTrace();
             }
         });
+    }
+
+    private void addFileToList(int fileNumber, String fileName) {
+        Text text = new Text("file " + String.valueOf(fileNumber) + ": " + fileName);
+        ObservableList list = fileList.getItems();
+        list.add(text);
+        fileList.setItems(list);
     }
 
     public void onDeleteAllSpectresMenuItemClick(ActionEvent actionEvent) {
@@ -75,6 +86,9 @@ public class Controller {
     }
 
     public void onCompareButtonClick(ActionEvent actionEvent) {
+        anchorPane.getChildren().clear();
+        buttonList = new ArrayList<>();
+        contextMenus = new ArrayList<>();
         apDrawer = new AnchorPaneDrawer(anchorPane);
         for(Character c: Data.getCandidateSequence().toCharArray()) {
             apDrawer.putOnAnchorPane(createCandidateSequenceButton(c.toString()));
@@ -84,7 +98,8 @@ public class Controller {
             addConfirmedCuts(confirmed, spectre.getFileNumber());
             confirmed = spectre.confirmSequence(Data.getReversedCutList());
             Collections.reverse(confirmed);
-            addConfirmedCuts(confirmed, spectre.getFileNumber());});
+            addConfirmedCuts(confirmed, spectre.getFileNumber());
+        });
         setButtonsHandlers();
     }
 

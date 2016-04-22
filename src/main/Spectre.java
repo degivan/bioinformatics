@@ -23,13 +23,15 @@ public class Spectre {
     private final double precursorMass;
     private final int precursorCharge;
     private ArrayList<Peak> peakList;
+    private final String fileName;
 
-    private Spectre(int fileNumber, double precursorMZ, double precursorMass, int precursorCharge, ArrayList<Peak> peakList) {
+    private Spectre(int fileNumber, double precursorMZ, double precursorMass, int precursorCharge, ArrayList<Peak> peakList, String fileName) {
         this.fileNumber = fileNumber;
         this.precursorMZ = precursorMZ;
         this.precursorMass = precursorMass;
         this.precursorCharge = precursorCharge;
         this.peakList = peakList;
+        this.fileName = fileName;
     }
 
     public static Spectre getSpectreFromFile(Path pathToFile) throws IOException {
@@ -49,7 +51,8 @@ public class Spectre {
                 }
             }
             filesAmount++;
-            return new Spectre(filesAmount - 1, precursorMZ, precursorMass, precursorCharge, peakList);
+            String fileName = pathToFile.toFile().getName();
+            return new Spectre(filesAmount - 1, precursorMZ, precursorMass, precursorCharge, peakList, fileName);
         }
     }
 
@@ -95,5 +98,9 @@ public class Spectre {
 
     public int getFileNumber() {
         return fileNumber;
+    }
+
+    public String getFileName() {
+        return fileName;
     }
 }
