@@ -123,16 +123,20 @@ public class Controller {
                 apDrawer.putOnAnchorPane(createCandidateSequenceBox(c.toString()));
             }
         }
-        Data.getHCDSpectres().forEach(spectre -> confirmCuts(spectre,
-                Data.getCandidateHCDCutList(),
-                Data.getReversedHCDCutList(),
-                contextMenusB,
-                contextMenusY));
-        Data.getETDSpectres().forEach(spectre -> confirmCuts(spectre,
-                Data.getCandidateETDCutList(),
-                Data.getReversedETDCutList(),
-                contextMenusC,
-                contextMenusZ));
+        if(Data.getHCDSpectres() != null) {
+            Data.getHCDSpectres().forEach(spectre -> confirmCuts(spectre,
+                    Data.getCandidateHCDCutList(),
+                    Data.getReversedHCDCutList(),
+                    contextMenusB,
+                    contextMenusY));
+        }
+        if(Data.getETDSpectres() != null) {
+            Data.getETDSpectres().forEach(spectre -> confirmCuts(spectre,
+                    Data.getCandidateETDCutList(),
+                    Data.getReversedETDCutList(),
+                    contextMenusC,
+                    contextMenusZ));
+        }
         showConfirmedCuts(contextMenusB, HCD_NUMBER, MAIN_CUT);
         showConfirmedCuts(contextMenusY, HCD_NUMBER, REV_CUT);
         showConfirmedCuts(contextMenusC, ETD_NUMBER, MAIN_CUT);
@@ -236,7 +240,9 @@ public class Controller {
     }
 
     private Line createLine(double startX, double startY, double endX, double endY) {
-        return new Line(startX, startY, endX, endY);
+        Line line = new Line(startX, startY, endX, endY);
+        line.setStroke(Color.TRANSPARENT);
+        return line;
     }
 
 }

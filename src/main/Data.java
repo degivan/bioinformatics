@@ -88,7 +88,7 @@ public class Data {
     }
 
     public static List<Double> getReversedETDCutList() {
-        return getCutList(reversedETDCutList, reversedCandidateSeq, -17.0);
+        return getCutList(reversedETDCutList, reversedCandidateSeq, 1.0);
     }
 
     private static List<Double> getCutList(List<Double> cutList, String candidateSeq, double additionalMass) {
