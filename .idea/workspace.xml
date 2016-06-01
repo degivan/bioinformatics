@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpectreAnalysisTool/main/Controller.class" afterPath="$PROJECT_DIR$/out/production/SpectreAnalysisTool/main/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/AnchorPaneDrawer.java" afterPath="$PROJECT_DIR$/src/main/AnchorPaneDrawer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Controller.java" afterPath="$PROJECT_DIR$/src/main/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Data.java" afterPath="$PROJECT_DIR$/src/main/Data.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Spectre.java" afterPath="$PROJECT_DIR$/src/main/Spectre.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/main.fxml" afterPath="$PROJECT_DIR$/src/main/main.fxml" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,71 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AminoAcidHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/AminoAcidHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spectre.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Spectre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getPrecursorParam#0;class#Spectre#0" expanded="false" />
-                <element signature="e#3242#3243#0" expanded="true" />
-                <element signature="e#3275#3276#0" expanded="true" />
-                <element signature="e#3310#3311#0" expanded="true" />
-                <element signature="e#3341#3342#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Peak.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Peak.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47115386">
-              <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/main.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5538464">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -138,12 +82,56 @@
         <entry file="file://$PROJECT_DIR$/src/main/AnchorPaneDrawer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#AnchorPaneDrawer#0;class#AnchorPaneDrawer#0" expanded="false" />
+                <element signature="docComment;class#AnchorPaneDrawer#0" expanded="false" />
                 <element signature="method#modifyButtonCoordinates#0;class#AnchorPaneDrawer#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.03313253">
+              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+              <folding>
+                <element signature="method#onAddSpectreMenuItemClick#0;class#Controller#0" expanded="false" />
+                <element signature="method#onSetCandidateSequenceMenuItemClick#0;class#Controller#0" expanded="false" />
+                <element signature="method#makeActionWithFile#0;class#Controller#0" expanded="false" />
+                <element signature="method#confirmCuts#0;class#Controller#0" expanded="false" />
+                <element signature="method#showConfirmedCuts#0;class#Controller#0" expanded="false" />
+                <element signature="method#addConfirmedCuts#0;class#Controller#0" expanded="false" />
+                <element signature="method#createCandidateSequenceBox#0;class#Controller#0" expanded="false" />
+                <element signature="method#createCutImage#0;class#Controller#0" expanded="false" />
+                <element signature="method#createLine#0;class#Controller#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spectre.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Spectre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4104#4105#0" expanded="true" />
+                <element signature="e#4137#4138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AminoAcidHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/AminoAcidHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,15 +140,13 @@
         <entry file="file://$PROJECT_DIR$/src/main/Data.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
+                <element signature="method#addSpectreFromFile#0;class#Data#0" expanded="false" />
+                <element signature="method#addSpectre#0;class#Data#0" expanded="false" />
                 <element signature="method#addCandidateSequence#0;class#Data#0" expanded="false" />
                 <element signature="method#addCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
                 <element signature="method#getCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
-                <element signature="method#deleteAllSpectres#0;class#Data#0" expanded="false" />
-                <element signature="method#getCandidateCutList#0;class#Data#0" expanded="false" />
-                <element signature="method#getReversedCutList#0;class#Data#0" expanded="false" />
-                <element signature="method#createCutList#0;class#Data#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -180,6 +166,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -197,23 +186,31 @@
         <option value="$PROJECT_DIR$/src/sample/AnchorPaneDrawer.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/AminoAcidHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/AnchorPaneDrawer.java" />
         <option value="$PROJECT_DIR$/src/main/MenuButton.java" />
         <option value="$PROJECT_DIR$/src/main/Peak.java" />
-        <option value="$PROJECT_DIR$/src/main/Data.java" />
-        <option value="$PROJECT_DIR$/src/main/Spectre.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/main.fxml" />
+        <option value="$PROJECT_DIR$/src/main/AnchorPaneDrawer.java" />
+        <option value="$PROJECT_DIR$/src/main/Spectre.java" />
+        <option value="$PROJECT_DIR$/src/main/Data.java" />
         <option value="$PROJECT_DIR$/src/main/Controller.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="width" value="1920" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -245,8 +242,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,7 +281,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,6 +297,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last.edited.regexp" value="                     f&#10;                     " />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -601,25 +599,26 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05808656" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26013514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16514806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24758843" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24837662" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39864865" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -631,7 +630,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -677,7 +675,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -686,6 +684,190 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AminoAcidHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Spectre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4104#4105#0" expanded="true" />
+            <element signature="e#4137#4138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Peak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <folding>
+            <element signature="method#onAddSpectreMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#onSetCandidateSequenceMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#makeActionWithFile#0;class#Controller#0" expanded="false" />
+            <element signature="method#confirmCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#showConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#addConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCandidateSequenceBox#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCutImage#0;class#Controller#0" expanded="false" />
+            <element signature="method#createLine#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AnchorPaneDrawer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#AnchorPaneDrawer#0" expanded="false" />
+            <element signature="method#modifyButtonCoordinates#0;class#AnchorPaneDrawer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="method#addSpectreFromFile#0;class#Data#0" expanded="false" />
+            <element signature="method#addSpectre#0;class#Data#0" expanded="false" />
+            <element signature="method#addCandidateSequence#0;class#Data#0" expanded="false" />
+            <element signature="method#addCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
+            <element signature="method#getCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AminoAcidHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Spectre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4104#4105#0" expanded="true" />
+            <element signature="e#4137#4138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Peak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#onAddSpectreMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#onSetCandidateSequenceMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#makeActionWithFile#0;class#Controller#0" expanded="false" />
+            <element signature="method#confirmCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#showConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#addConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCandidateSequenceBox#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCutImage#0;class#Controller#0" expanded="false" />
+            <element signature="method#createLine#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AnchorPaneDrawer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#AnchorPaneDrawer#0" expanded="false" />
+            <element signature="method#modifyButtonCoordinates#0;class#AnchorPaneDrawer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="method#addSpectreFromFile#0;class#Data#0" expanded="false" />
+            <element signature="method#addSpectre#0;class#Data#0" expanded="false" />
+            <element signature="method#addCandidateSequence#0;class#Data#0" expanded="false" />
+            <element signature="method#addCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
+            <element signature="method#getCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -699,13 +881,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding>
+            <element signature="method#addSpectreFromFile#0;class#Data#0" expanded="false" />
+            <element signature="method#addSpectre#0;class#Data#0" expanded="false" />
             <element signature="method#addCandidateSequence#0;class#Data#0" expanded="false" />
             <element signature="method#addCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
             <element signature="method#getCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
-            <element signature="method#deleteAllSpectres#0;class#Data#0" expanded="false" />
-            <element signature="method#getCandidateCutList#0;class#Data#0" expanded="false" />
-            <element signature="method#getReversedCutList#0;class#Data#0" expanded="false" />
-            <element signature="method#createCutList#0;class#Data#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -715,7 +895,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -726,11 +906,8 @@
           <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getPrecursorParam#0;class#Spectre#0" expanded="false" />
-            <element signature="e#3242#3243#0" expanded="true" />
-            <element signature="e#3275#3276#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3341#3342#0" expanded="true" />
+            <element signature="e#4104#4105#0" expanded="true" />
+            <element signature="e#4137#4138#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -748,13 +925,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
+            <element signature="method#addSpectreFromFile#0;class#Data#0" expanded="false" />
+            <element signature="method#addSpectre#0;class#Data#0" expanded="false" />
             <element signature="method#addCandidateSequence#0;class#Data#0" expanded="false" />
             <element signature="method#addCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
             <element signature="method#getCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
-            <element signature="method#deleteAllSpectres#0;class#Data#0" expanded="false" />
-            <element signature="method#getCandidateCutList#0;class#Data#0" expanded="false" />
-            <element signature="method#getReversedCutList#0;class#Data#0" expanded="false" />
-            <element signature="method#createCutList#0;class#Data#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -764,7 +939,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -775,11 +950,8 @@
           <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getPrecursorParam#0;class#Spectre#0" expanded="false" />
-            <element signature="e#3242#3243#0" expanded="true" />
-            <element signature="e#3275#3276#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3341#3342#0" expanded="true" />
+            <element signature="e#4104#4105#0" expanded="true" />
+            <element signature="e#4137#4138#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +968,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#onAddSpectreMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#onSetCandidateSequenceMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#makeActionWithFile#0;class#Controller#0" expanded="false" />
+            <element signature="method#confirmCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#showConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#addConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCandidateSequenceBox#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCutImage#0;class#Controller#0" expanded="false" />
+            <element signature="method#createLine#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -808,7 +987,7 @@
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#AnchorPaneDrawer#0;class#AnchorPaneDrawer#0" expanded="false" />
+            <element signature="docComment;class#AnchorPaneDrawer#0" expanded="false" />
             <element signature="method#modifyButtonCoordinates#0;class#AnchorPaneDrawer#0" expanded="false" />
           </folding>
         </state>
@@ -827,13 +1006,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#addSpectreFromFile#0;class#Data#0" expanded="false" />
+            <element signature="method#addSpectre#0;class#Data#0" expanded="false" />
             <element signature="method#addCandidateSequence#0;class#Data#0" expanded="false" />
             <element signature="method#addCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
             <element signature="method#getCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
-            <element signature="method#deleteAllSpectres#0;class#Data#0" expanded="false" />
-            <element signature="method#getCandidateCutList#0;class#Data#0" expanded="false" />
-            <element signature="method#getReversedCutList#0;class#Data#0" expanded="false" />
-            <element signature="method#createCutList#0;class#Data#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -844,11 +1021,8 @@
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getPrecursorParam#0;class#Spectre#0" expanded="false" />
-            <element signature="e#3242#3243#0" expanded="true" />
-            <element signature="e#3275#3276#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3341#3342#0" expanded="true" />
+            <element signature="e#4104#4105#0" expanded="true" />
+            <element signature="e#4137#4138#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -857,7 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +1039,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#onAddSpectreMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#onSetCandidateSequenceMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#makeActionWithFile#0;class#Controller#0" expanded="false" />
+            <element signature="method#confirmCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#showConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#addConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCandidateSequenceBox#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCutImage#0;class#Controller#0" expanded="false" />
+            <element signature="method#createLine#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -884,13 +1065,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#addSpectreFromFile#0;class#Data#0" expanded="false" />
+            <element signature="method#addSpectre#0;class#Data#0" expanded="false" />
             <element signature="method#addCandidateSequence#0;class#Data#0" expanded="false" />
             <element signature="method#addCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
             <element signature="method#getCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
-            <element signature="method#deleteAllSpectres#0;class#Data#0" expanded="false" />
-            <element signature="method#getCandidateCutList#0;class#Data#0" expanded="false" />
-            <element signature="method#getReversedCutList#0;class#Data#0" expanded="false" />
-            <element signature="method#createCutList#0;class#Data#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -901,11 +1080,8 @@
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getPrecursorParam#0;class#Spectre#0" expanded="false" />
-            <element signature="e#3242#3243#0" expanded="true" />
-            <element signature="e#3275#3276#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3341#3342#0" expanded="true" />
+            <element signature="e#4104#4105#0" expanded="true" />
+            <element signature="e#4137#4138#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -914,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,7 +1106,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#onAddSpectreMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#onSetCandidateSequenceMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#makeActionWithFile#0;class#Controller#0" expanded="false" />
+            <element signature="method#confirmCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#showConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#addConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCandidateSequenceBox#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCutImage#0;class#Controller#0" expanded="false" />
+            <element signature="method#createLine#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -965,25 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9073684">
           <caret line="492" column="13" selection-start-line="492" selection-start-column="13" selection-end-line="492" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AminoAcidHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,50 +1155,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_60/javafx-src.zip!/javafx/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65146196">
+          <caret line="298" column="56" selection-start-line="298" selection-start-column="56" selection-end-line="298" selection-end-column="56" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="method#addCandidateSequence#0;class#Data#0" expanded="false" />
-            <element signature="method#addCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
-            <element signature="method#getCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
-            <element signature="method#deleteAllSpectres#0;class#Data#0" expanded="false" />
-            <element signature="method#getCandidateCutList#0;class#Data#0" expanded="false" />
-            <element signature="method#getReversedCutList#0;class#Data#0" expanded="false" />
-            <element signature="method#createCutList#0;class#Data#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AnchorPaneDrawer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#AnchorPaneDrawer#0;class#AnchorPaneDrawer#0" expanded="false" />
-            <element signature="method#modifyButtonCoordinates#0;class#AnchorPaneDrawer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Spectre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getPrecursorParam#0;class#Spectre#0" expanded="false" />
-            <element signature="e#3242#3243#0" expanded="true" />
-            <element signature="e#3275#3276#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3341#3342#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,18 +1171,80 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5538464">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.7097792">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AminoAcidHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#addSpectreFromFile#0;class#Data#0" expanded="false" />
+            <element signature="method#addSpectre#0;class#Data#0" expanded="false" />
+            <element signature="method#addCandidateSequence#0;class#Data#0" expanded="false" />
+            <element signature="method#addCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
+            <element signature="method#getCandidateSequenceFromFile#0;class#Data#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Spectre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4104#4105#0" expanded="true" />
+            <element signature="e#4137#4138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AnchorPaneDrawer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#AnchorPaneDrawer#0" expanded="false" />
+            <element signature="method#modifyButtonCoordinates#0;class#AnchorPaneDrawer#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47115386">
-          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.03313253">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#onAddSpectreMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#onSetCandidateSequenceMenuItemClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#makeActionWithFile#0;class#Controller#0" expanded="false" />
+            <element signature="method#confirmCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#showConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#addConfirmedCuts#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCandidateSequenceBox#0;class#Controller#0" expanded="false" />
+            <element signature="method#createCutImage#0;class#Controller#0" expanded="false" />
+            <element signature="method#createLine#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
       </provider>

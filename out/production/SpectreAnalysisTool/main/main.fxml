@@ -25,7 +25,7 @@
         </Menu>
       </menus>
     </MenuBar>
-    <AnchorPane fx:id="anchorPane" prefHeight="378.0" prefWidth="620.0" style="-fx-border-color: black;&#10;" AnchorPane.bottomAnchor="121.0" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="164.0" AnchorPane.topAnchor="100.0">
+    <AnchorPane fx:id="anchorPane" prefHeight="378.0" prefWidth="751.0" style="-fx-border-color: black;&#10;" AnchorPane.bottomAnchor="121.0" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="100.0">
       <padding>
         <Insets bottom="25.0" />
       </padding>

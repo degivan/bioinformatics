@@ -11,11 +11,14 @@ import java.util.List;
  * and current candidate sequence.
  */
 public class Data {
-    private static List<Spectre> spectreList = null;
     private static String candidateSequence = null;
     private static String reversedCandidateSeq = null;
-    private static List<Double> candidateCutList = new ArrayList<>();
-    private static List<Double> reversedCutList = new ArrayList<>();
+    private static List<Double> candidateHCDCutList = new ArrayList<>();
+    private static List<Double> reversedHCDCutList = new ArrayList<>();
+    private static List<Double> candidateETDCutList = new ArrayList<>();
+    private static List<Double> reversedETDCutList = new ArrayList<>();
+    private static List<Spectre> spectreHCDList = null;
+    private static List<Spectre> spectreETDList = null;
 
     private Data() {}
 
@@ -24,15 +27,29 @@ public class Data {
     }
 
     public static Spectre addSpectre(Spectre spectre) {
-        if (spectreList == null) {
-            spectreList = new ArrayList<>();
+        switch(spectre.getTechnology()) {
+            case HCD:
+                if (spectreHCDList == null ) {
+                    spectreHCDList = new ArrayList<>();
+                }
+                spectreHCDList.add(spectre);
+                break;
+            case ETD:
+                if (spectreETDList == null ) {
+                    spectreETDList = new ArrayList<>();
+                }
+                spectreETDList.add(spectre);
+                break;
         }
-        spectreList.add(spectre);
         return spectre;
     }
 
-    public static List<Spectre> getSpectreList() {
-        return spectreList;
+    public static List<Spectre> getHCDSpectres() {
+        return spectreHCDList;
+    }
+
+    public static List<Spectre> getETDSpectres() {
+        return spectreETDList;
     }
 
     public static void addCandidateSequence(String candidateSequence) {
@@ -54,21 +71,31 @@ public class Data {
 
     public static void deleteAllSpectres() {
         Spectre.setFilesAmount(0);
-        spectreList = new ArrayList<>();
+        spectreHCDList = new ArrayList<>();
+        spectreETDList = new ArrayList<>();
     }
 
-    public static List<Double> getCandidateCutList() {
-        if(candidateCutList.size() == 0) {
-            candidateCutList.addAll(createCutList(candidateSequence, 0.0));
-        }
-        return candidateCutList;
+    public static List<Double> getCandidateHCDCutList() {
+        return getCutList(candidateHCDCutList, candidateSequence, 0.0);
     }
 
-    public static List<Double> getReversedCutList() {
-        if(reversedCutList.size() == 0) {
-            reversedCutList.addAll(createCutList(reversedCandidateSeq, 18.0));
+    public static List<Double> getReversedHCDCutList() {
+        return getCutList(reversedHCDCutList, reversedCandidateSeq, 18.0);
+    }
+
+    public static List<Double> getCandidateETDCutList() {
+        return getCutList(candidateETDCutList, candidateSequence, 17.0);
+    }
+
+    public static List<Double> getReversedETDCutList() {
+        return getCutList(reversedETDCutList, reversedCandidateSeq, -17.0);
+    }
+
+    private static List<Double> getCutList(List<Double> cutList, String candidateSeq, double additionalMass) {
+        if(cutList.size() == 0) {
+            cutList.addAll(createCutList(candidateSeq, additionalMass));
         }
-        return reversedCutList;
+        return cutList;
     }
 
     private static List<Double> createCutList(String candidateSeq, Double additionalMass) {
@@ -83,6 +110,5 @@ public class Data {
         }
         return cutList;
     }
-
 
 }
