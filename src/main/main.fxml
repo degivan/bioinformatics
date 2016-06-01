@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="808.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="main.Controller">
+  <children>
+    <MenuBar prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#onAddSpectreMenuItemClick" text="Add Spectre" />
+            <MenuItem mnemonicParsing="false" onAction="#onSetCandidateSequenceMenuItemClick" text="Set Candidate Sequence" />
+            <MenuItem mnemonicParsing="false" onAction="#onDeleteAllSpectresMenuItemClick" text="Delete All Spectres" />
+            <MenuItem mnemonicParsing="false" onAction="#onCloseMenuItemClick" text="Close" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane fx:id="anchorPane" prefHeight="378.0" prefWidth="751.0" style="-fx-border-color: black;&#10;" AnchorPane.bottomAnchor="121.0" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="100.0">
+      <padding>
+        <Insets bottom="25.0" />
+      </padding>
+    </AnchorPane>
+    <Button layoutX="44.0" layoutY="58.0" mnemonicParsing="false" onAction="#onCompareButtonClick" style="&#10;" text="Compare" />
+    <ListView fx:id="fileList" prefHeight="92.0" prefWidth="744.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="33.0" />
+  </children>
+</AnchorPane>
